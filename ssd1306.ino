@@ -26,6 +26,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define encoder0PinA  2
 #define encoder0PinB  16
 volatile unsigned int encoder0Pos = 0;
+// salut
 
 typedef struct
 {
